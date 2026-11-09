@@ -1,0 +1,3 @@
+from saudi_jobs.cli import main
+
+raise SystemExit(main())

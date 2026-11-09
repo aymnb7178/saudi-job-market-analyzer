@@ -1,0 +1,389 @@
+{
+  "_comment": "Editable skill taxonomy. Structure: category -> canonical skill -> extra aliases. The canonical name is always an implicit alias. Matching is case-insensitive, Arabic-normalised (alef/teh-marbuta folding, diacritics removed) and word-boundary-safe. An alias may belong to only one skill.",
+  "categories": {
+    "Programming Languages": {
+      "Python": [
+        "Python3",
+        "بايثون",
+        "بايثن",
+        "بيثون"
+      ],
+      "SQL": [
+        "T-SQL",
+        "اس كيو ال",
+        "إس كيو إل",
+        "SQL Server"
+      ],
+      "JavaScript": [
+        "Node.js",
+        "NodeJS",
+        "جافا سكريبت",
+        "جافاسكربت"
+      ],
+      "TypeScript": [
+        "تايب سكريبت"
+      ],
+      "Java": [
+        "جافا"
+      ],
+      "C#": [
+        "C Sharp",
+        "سي شارب"
+      ],
+      "C++": [
+        "سي بلس بلس"
+      ],
+      "PHP": [],
+      "Shell Scripting": [
+        "Bash",
+        "PowerShell",
+        "Shell script"
+      ],
+      "VBA": [
+        "Excel Macros",
+        "ماكرو"
+      ]
+    },
+    "Data & Analytics Tools": {
+      "Excel": [
+        "Microsoft Excel",
+        "MS Excel",
+        "إكسل",
+        "اكسل",
+        "إكسيل",
+        "اكسيل"
+      ],
+      "Power BI": [
+        "PowerBI",
+        "باور بي آي",
+        "باور بي اي",
+        "باوربي آي"
+      ],
+      "Tableau": [
+        "تابلو"
+      ],
+      "Looker Studio": [
+        "Google Data Studio",
+        "Data Studio",
+        "لوكر ستوديو"
+      ],
+      "Google Sheets": [
+        "جوجل شيت",
+        "جوجل شيتس"
+      ],
+      "Pandas": [
+        "بانداس"
+      ],
+      "NumPy": [
+        "نمباي"
+      ],
+      "Power Query": [],
+      "DAX": [],
+      "Jupyter": [
+        "Jupyter Notebook",
+        "Colab"
+      ],
+      "Data Visualization": [
+        "Data Visualisation",
+        "Dashboards",
+        "Dashboarding",
+        "تصوير البيانات",
+        "لوحات المعلومات",
+        "لوحات البيانات"
+      ],
+      "Statistics": [
+        "Statistical Analysis",
+        "الإحصاء",
+        "الاحصاء",
+        "التحليل الإحصائي"
+      ],
+      "Data Cleaning": [
+        "Data Cleansing",
+        "Data Wrangling",
+        "تنظيف البيانات"
+      ],
+      "ETL": [
+        "Data Pipelines",
+        "Data Pipeline",
+        "Airflow"
+      ],
+      "Databases": [
+        "MySQL",
+        "PostgreSQL",
+        "Oracle Database",
+        "MongoDB",
+        "قواعد البيانات",
+        "قواعد بيانات"
+      ]
+    },
+    "Cloud & DevOps": {
+      "AWS": [
+        "Amazon Web Services",
+        "أمازون ويب سيرفس"
+      ],
+      "Azure": [
+        "Microsoft Azure",
+        "أزور"
+      ],
+      "Google Cloud": [
+        "GCP",
+        "جوجل كلاود"
+      ],
+      "Cloud Computing": [
+        "الحوسبة السحابية"
+      ],
+      "Docker": [
+        "دوكر"
+      ],
+      "Kubernetes": [
+        "K8s",
+        "كوبرنيتس"
+      ],
+      "Linux": [
+        "لينكس",
+        "لينوكس"
+      ],
+      "Git": [
+        "GitHub",
+        "GitLab",
+        "جيت هب",
+        "قيت هوب"
+      ],
+      "REST APIs": [
+        "REST API",
+        "RESTful",
+        "API Integration",
+        "APIs"
+      ],
+      "CI/CD": [
+        "CI CD",
+        "Jenkins",
+        "GitHub Actions"
+      ]
+    },
+    "AI & Automation": {
+      "Artificial Intelligence": [
+        "AI",
+        "الذكاء الاصطناعي",
+        "ذكاء اصطناعي"
+      ],
+      "Machine Learning": [
+        "ML",
+        "تعلم الآلة",
+        "تعلم الالة",
+        "التعلم الآلي"
+      ],
+      "Deep Learning": [
+        "Neural Networks",
+        "التعلم العميق"
+      ],
+      "NLP": [
+        "Natural Language Processing",
+        "معالجة اللغة الطبيعية",
+        "معالجة اللغات الطبيعية"
+      ],
+      "Computer Vision": [
+        "الرؤية الحاسوبية",
+        "رؤية الحاسب"
+      ],
+      "OpenCV": [],
+      "TensorFlow": [
+        "تنسرفلو"
+      ],
+      "PyTorch": [
+        "باي تورش"
+      ],
+      "scikit-learn": [
+        "sklearn",
+        "scikit learn"
+      ],
+      "LLMs": [
+        "LLM",
+        "Large Language Models",
+        "نماذج اللغة الكبيرة"
+      ],
+      "Generative AI": [
+        "GenAI",
+        "الذكاء الاصطناعي التوليدي"
+      ],
+      "Prompt Engineering": [
+        "هندسة الأوامر",
+        "هندسة الاوامر",
+        "هندسة التوجيهات"
+      ],
+      "n8n": [],
+      "Workflow Automation": [
+        "Process Automation",
+        "Zapier",
+        "Make.com",
+        "RPA",
+        "UiPath",
+        "الأتمتة",
+        "اتمتة"
+      ],
+      "LangChain": [],
+      "Chatbots": [
+        "Chatbot",
+        "Telegram Bot",
+        "روبوت دردشة",
+        "بوت تيليجرام"
+      ]
+    },
+    "Networking & IT Support": {
+      "Networking": [
+        "Computer Networks",
+        "LAN",
+        "WAN",
+        "الشبكات",
+        "شبكات الحاسب",
+        "شبكات"
+      ],
+      "TCP/IP": [
+        "TCP IP",
+        "DNS",
+        "DHCP"
+      ],
+      "Active Directory": [
+        "Group Policy",
+        "LDAP"
+      ],
+      "Windows Server": [
+        "ويندوز سيرفر"
+      ],
+      "Help Desk": [
+        "Helpdesk",
+        "Service Desk",
+        "ServiceNow",
+        "الدعم الفني",
+        "دعم فني",
+        "الدعم التقني",
+        "دعم تقني"
+      ],
+      "Troubleshooting": [
+        "Hardware Troubleshooting",
+        "حل المشكلات التقنية",
+        "استكشاف الأخطاء وإصلاحها"
+      ],
+      "Microsoft 365": [
+        "Office 365",
+        "M365",
+        "O365",
+        "Intune"
+      ],
+      "Cisco": [
+        "سيسكو"
+      ],
+      "Firewalls & VPN": [
+        "Firewall",
+        "Firewalls",
+        "VPN",
+        "Fortinet",
+        "FortiGate",
+        "الجدار الناري",
+        "جدران الحماية"
+      ],
+      "Virtualization": [
+        "VMware",
+        "Hyper-V",
+        "VirtualBox",
+        "الافتراضية"
+      ],
+      "Cybersecurity": [
+        "Cyber Security",
+        "Information Security",
+        "الأمن السيبراني",
+        "الامن السيبراني",
+        "أمن المعلومات"
+      ],
+      "Hardware Support": [
+        "Printers",
+        "Desktop Support",
+        "صيانة الحاسب",
+        "صيانة الأجهزة"
+      ]
+    },
+    "Certifications": {
+      "Google IT Support Certificate": [
+        "Google IT Support",
+        "شهادة جوجل للدعم الفني"
+      ],
+      "CCNA": [],
+      "CompTIA A+": [
+        "A+ Certified",
+        "A+ Certification"
+      ],
+      "Network+": [
+        "CompTIA Network+"
+      ],
+      "Security+": [
+        "CompTIA Security+"
+      ],
+      "AWS Certified": [
+        "AWS Cloud Practitioner",
+        "AWS Solutions Architect"
+      ],
+      "Azure Fundamentals": [
+        "AZ-900"
+      ],
+      "ITIL Foundation": [
+        "ITIL",
+        "ITIL 4",
+        "ITIL v4"
+      ],
+      "PMP": [
+        "Project Management Professional"
+      ],
+      "PL-300": [],
+      "Google Data Analytics Certificate": [
+        "Google Data Analytics"
+      ]
+    },
+    "Soft Skills": {
+      "Communication": [
+        "Communication skills",
+        "التواصل",
+        "مهارات التواصل",
+        "مهارات الاتصال"
+      ],
+      "Teamwork": [
+        "Team player",
+        "Collaboration",
+        "العمل الجماعي",
+        "العمل ضمن فريق",
+        "العمل بروح الفريق"
+      ],
+      "Problem Solving": [
+        "Problem-solving",
+        "حل المشكلات",
+        "حل المشاكل"
+      ],
+      "Time Management": [
+        "إدارة الوقت"
+      ],
+      "Leadership": [
+        "القيادة",
+        "مهارات قيادية"
+      ],
+      "Critical Thinking": [
+        "التفكير النقدي",
+        "التفكير التحليلي",
+        "Analytical Thinking",
+        "Analytical Skills"
+      ],
+      "Attention to Detail": [
+        "الاهتمام بالتفاصيل"
+      ],
+      "Presentation Skills": [
+        "Presentation",
+        "Storytelling",
+        "مهارات العرض",
+        "مهارات التقديم"
+      ],
+      "Customer Service": [
+        "Customer Support",
+        "Client Facing",
+        "خدمة العملاء"
+      ]
+    }
+  }
+}
