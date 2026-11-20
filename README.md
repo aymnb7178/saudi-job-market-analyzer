@@ -175,12 +175,6 @@ it is not an accuracy claim for real postings.
 - Salary percentiles by role and city once enough postings state a salary
 - Optional Arabic-capable chart fonts
 
-## Built with AI assistance
-
-This project was built with the help of an AI coding assistant (Claude), directed and reviewed by the author. The code is
-tested, and the README numbers were produced by running the code, but the project has not had independent review.
-It is a learning / portfolio project.
-
 ## License
 
 MIT, see [LICENSE](LICENSE).
